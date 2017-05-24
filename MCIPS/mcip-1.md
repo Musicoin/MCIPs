@@ -25,9 +25,9 @@ There are three types of MCIP:
 
 -   A **Standard Track MCIP** describes any change that affects most or all Musicoin implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Musicoin. Furthermore Standard MCIPs can be broken down into the following categories.
     -   **Core** - improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions.
-    -   **Networking** - includes improvements around [devp2p] ([MCIP8]) and [Light Musicoin Subprotocol], as well as proposed improvements to network protocol specifications of [whisper] and [swarm].
-    -   **Interface** - includes improvements around client [API/RPC] specifications and standards, and also certain language-level standards like method names ([MCIP59], [MCIP6]) and [contract ABIs]. The label “interface” aligns with the [interfaces repo] and discussion should primarily occur in that repository before an MCIP is submitted to the MCIPs repository.
-    -   **ERC** - application-level standards and conventions, including contract standards such as token standards ([ERC20]), name registries ([ERC26], [ERC137]), URI schemes ([ERC67]), library/package formats ([MCIP82]), and wallet formats ([MCIP75], [MCIP85]).
+    -   **Networking** - includes improvements to network protocol specifications of [whisper] and [swarm].
+    -   **Interface** - includes improvements around client [API/RPC] specifications and standards.
+    -   **Application** - application-level standards and conventions, including contract standards.
 
 -   An **Informational MCIP** describes a Musicoin design issue, or provides general guidelines or information to the Musicoin community, but does not propose a new feature. Informational MCIPs do not necessarily represent Musicoin community consensus or a recommendation, so users and implementers are free to ignore Informational MCIPs or follow their advice.
 -   A **Meta MCIP** describes a process surrounding Musicoin or proposes a change to (or an event in) a process. Process MCIPs are like Standards Track MCIPs but apply to areas other than the Musicoin protocol itself. They may propose an implementation, but not to Musicoin's codebase; they often require community consensus; unlike Informational MCIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Musicoin development. Any meta-MCIP is also considered a Process MCIP.
@@ -173,23 +173,8 @@ MCIP Editors
 
 The current MCIP editors are
 
-` * Casey Detrio (@cdetrio)`
+` * Isaac Mao (@isaac)`
 
-` * Fabian Vogelsteller (@frozeman)`
-
-` * Gavin Wood (@gavofyork)`
-
-` * Hudson Jameson (@Souptacular)`
-
-` * Jeffrey Wilcke (@obscuren)`
-
-` * Martin Becze (@wanderer)`
-
-` * Nick Johnson (@arachnid)`
-
-` * Roman Mandeleil (@romanman)`
-
-` * Vitalik Buterin (@vbuterin)`
 
 MCIP Editor Responsibilities and Workflow
 --------------------------------------
@@ -227,37 +212,4 @@ History
 
 This document was derived heavily from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Musicoin Improvement Process, and should not be bothered with technical questions specific to Musicoin or the MCIP. Please direct all comments to the MCIP editors.
 
-December 7, 2016: MCIP 1 has been improved and will be placed as a PR.
-
-February 1, 2016: MCIP 1 has added editors, made draft improvements to process, and has merged with Master stream.
-
-  [MCIP5]: https://github.com/Musicoin/MCIPs/blob/master/MCIPS/MCIP-5.md
-  [MCIP101]: https://github.com/Musicoin/MCIPs/issues/28
-  [MCIP90]: https://github.com/Musicoin/MCIPs/issues/90
-  [MCIP86]: https://github.com/Musicoin/MCIPs/issues/86#issue-145324865
-  [devp2p]: https://github.com/Musicoin/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol
-  [MCIP8]: https://github.com/Musicoin/MCIPs/blob/master/MCIPS/MCIP-8.md
-  [Light Musicoin Subprotocol]: https://github.com/Musicoin/wiki/wiki/Light-client-protocol
-  [whisper]: https://gist.github.com/gluk256/4654922ca45eb9d0846d941d7ca326f4
-  [swarm]: https://github.com/Musicoin/go-Musicoin/pull/2959
-  [API/RPC]: https://github.com/Musicoin/wiki/wiki/JSON-RPC
-  [MCIP59]: https://github.com/Musicoin/MCIPs/issues/59
-  [MCIP6]: https://github.com/Musicoin/MCIPs/blob/master/MCIPS/MCIP-6.md
-  [contract ABIs]: https://github.com/Musicoin/wiki/wiki/Musicoin-Contract-ABI
-  [interfaces repo]: https://github.com/Musicoin/interfaces
-  [ERC20]: https://github.com/Musicoin/MCIPs/issues/20
-  [ERC26]: https://github.com/Musicoin/MCIPs/issues/26
-  [ERC137]: https://github.com/Musicoin/MCIPs/issues/137
-  [ERC67]: https://github.com/Musicoin/MCIPs/issues/67
-  [MCIP82]: https://github.com/Musicoin/MCIPs/issues/82
-  [MCIP75]: https://github.com/Musicoin/MCIPs/issues/75
-  [MCIP85]: https://github.com/Musicoin/MCIPs/issues/85
-  [the Musicoin subreddit]: https://www.reddit.com/r/Musicoin/
-  [one of the Musicoin Gitter chat rooms]: https://gitter.im/Musicoin/
-  [pull request]: https://github.com/Musicoin/MCIPs/pulls
-  [formal specification]: https://github.com/Musicoin/yellowpaper
-  [the Issues section of this repository]: https://github.com/Musicoin/MCIPs/issues
-  [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-  [README.md]: README.md "wikilink"
-  [Bitcoin's BIP-0001]: https://github.com/bitcoin/bips
-  [Python's PEP-0001]: https://www.python.org/dev/peps/
+May 21, 2017: MCIP 1 was put in place and ready to serve future evolution.

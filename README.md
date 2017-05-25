@@ -1,8 +1,8 @@
-# MCIPs [![Slack]](https://musicoin.slack.com/messages/G2WP3DMPX)
+# MCIPs [[Slack]](https://musicoin.slack.com/messages/G2WP3DMPX)
 Musicoin Improvement Proposals (MCIPs) describe standards for the Musicoin platform, including core protocol specifications, money policies, client APIs, and contract standards.
 
 # Contributing
-First review [MCIP-1](MCIPS/mcip-1.md). Then clone the repository and add your EIP to it. There is a [template MCIP here](eip-X.md). Then submit a Pull Request to Ethereum's [MCIPs repository](https://github.com/ethereum/MCIPs).
+First review [MCIP-1](MCIPS/mcip-1.md). Then clone the repository and add your EIP to it. There is a [template MCIP here](mcip-X.md). Then submit a Pull Request to Ethereum's [MCIPs repository](https://github.com/musicoin/MCIPs).
 
 # EIP status terms
 * **Draft** - an EIP that is open for consideration

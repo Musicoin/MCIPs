@@ -1,4 +1,4 @@
-# MCIPs [[Slack]](https://musicoin.slack.com/messages/G2WP3DMPX)
+# MCIPs 
 
 [![Join the chat at https://gitter.im/musicoins/Lobby](https://badges.gitter.im/musicoins/Lobby.svg)](https://gitter.im/musicoins/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Musicoin Improvement Proposals (MCIPs) describe standards for the Musicoin platform, including core protocol specifications, money policies, client APIs, and contract standards.

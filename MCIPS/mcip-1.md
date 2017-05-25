@@ -2,8 +2,8 @@
       Title: MCIP Purpose and Guidelines
       Status: Draft
       Type: Meta
-      Author: Martin Becze <mb@Musicoin.org>, Hudson Jameson <hudson@Musicoin.org>, Isaac Mao <im@berry.ai>
-      Created: 2015-10-27, 2017-02-01, 2017-05-24
+      Author: Isaac Mao <im@berry.ai>
+      Created: 2017-05-24
 
 What is an MCIP?
 --------------

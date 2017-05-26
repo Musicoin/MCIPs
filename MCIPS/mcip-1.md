@@ -7,7 +7,7 @@
 
 What is an MCIP?
 --------------
-This document describes the guidelines for MCIPs, adapted from EIP1.
+This document describes the guidelines for MCIPs, adapted from MCIP1.
 
 MCIP stands for Musicoin Improvement Proposal. An MCIP is a design document providing information to the Musicoin community, or describing a new feature for Musicoin or its processes or environment. The MCIP should provide a concise technical specification of the feature and a rationale for the feature. The MCIP author is responsible for building consensus within the community and documenting dissenting opinions.
 

@@ -1,0 +1,21 @@
+==Deployments==
+
+List of proposed deployments.
+
+State can be defined, active, failed. Dates are in UTC.
+
+{| class="wikitable sortable"
+! Name
+! Bit
+! Mainnet Start
+! Mainnet Expire
+! Mainnet State
+! MCIPs
+|-
+| UBI
+| 1
+| 2017-08-25 00:00:00
+| 2018-09-25 00:00:00
+| | active since #1000000
+| [[/mcip-3.md|3], [[/mcip-2.mediawiki|2]]]
+|}

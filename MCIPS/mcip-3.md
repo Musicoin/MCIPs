@@ -1,10 +1,9 @@
-<pre>    MCIP: 3
+      MCIP: 3
       Title: Universal Basic Income
       Status: Draft
       Type: Standard
       Author: Isaac Mao <isaac@musicoin.org>
       Created: 2017-05-24
-</pre>
 
       Abstract
       ========
@@ -26,7 +25,7 @@
 
       We imagine UBI will not only please listeners in free playback, but also be possible to trigger more needs to tip musicians because listeners would be keen to have more intimate relationship with music and its creators, thus yield more demands for coins. We have observed 1:5 between music playbacks and tips in current blockchain. It means for every music was listened, there could be 5 times of tips being paid from listeners. This ratio can be higher in the future as more attachment could be built between musicians and music listers. After all, music is emotional art.
 
-      Furthermore, if listeners wants higher needs, they have to pay by themselves. Apart from tipping, playlist is a good case to study. Since every song played is for “free” now, users don’t need to pay if they only play one song, however, if they want to organize a playlist, either for himself or for sharing, he needs have a user name to make it and save it. For others wants to play the playlist, they need to pay to the creator of playlist to have a continuous playback one by one. Coins become more useful with such higher demands. 
+      Furthermore, if listeners wants higher needs, they have to pay by themselves. Apart from tipping, playlist is a good case to study. Since every song played is for “free” now, users don’t need to pay if they only play one song, however, if they want to organize a playlist, either for himself or for sharing, he needs have a user name to make it and save it. For others wants to play the playlist, they need to pay to the creator of playlist to have a continuous playback one by one. Coins become more useful with such higher demands.
 
       In this way, although UBI is part of monetary policy, it won't hurt the benefit of miners. Intead, the profitability of miners would be much higher than the proportion from the total issuance as the demand and circulation will be boosted. Actually the change will also mitigate the feeling of inflation by squeezing some coins into consumption instead of pouring to market directly.  
 
@@ -34,4 +33,4 @@
       =============
       With UBI scheme, we need to change the block reward after by allocating 280 coins will go to miners, 30 will be kept as UBI, and 4 coins will be reserved as dev fund.
 
-      The deployment of this change needs to [[mcip-4.mediawiki | signal]] in advance to study the current network.
+      The deployment of this change needs to [mcip-4.mediawiki | signal] in advance to study the current network.

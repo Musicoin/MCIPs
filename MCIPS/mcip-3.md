@@ -8,7 +8,7 @@
 
       Abstract
       ========
-      Along the roadmap of $MUSIC, we are going to make $MUSIC blockchain more useful to connect real world demands. Universal Basic Income(UBI) is an idea to approach this goal by adding a reservoir to reward musicians, the same time stimulate the whole music economy. With this policy, hopefully, the whole system will attract both listeners and musicians in a drastic scale.
+      Based on the [[https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefce |roadmap of $MUSIC]], we are going to make $MUSIC blockchain more useful to connect real world demands. Universal Basic Income(UBI) is the core idea in "Heal the world"(v2.0). This approach will insert a reservoir to be used to pay music by blockchain as a basic benefit to global listeners. This policy is a proactive method to stimulate the whole music economy.  
 
       Motivation
       ==========
@@ -25,7 +25,9 @@
 
       Rationale
       =========
-      The change will reduce some money supply of musicoin which helps mitigate the speed of inflation.  It will affect the consensus layer but not touching the core layer. From application layer, we have observed 1:5.5 between music playbacks and tips. It means for every music was listened, there could be 5-10 times of tips being paid from listeners. This ratio can be higher in the future as more attachment could be built between musicians and music listers.
+      The change will effectively mitigate the speed of inflation by squeezing some coins into consumption instead of going to market.  
+
+      It will affect the consensus layer but not touching the core layer. From application layer, we have observed 1:5.5 between music playbacks and tips. It means for every music was listened, there could be 5-10 times of tips being paid from listeners. This ratio can be higher in the future as more attachment could be built between musicians and music listers.
 
 
       Specification

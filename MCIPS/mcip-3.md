@@ -7,8 +7,8 @@
 
 Abstract
 --------
-     
-Based on the [Roadmap of $MUSIC](https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefceroadmap), we are going to make $MUSIC blockchain more useful to boost real world demands. Universal Basic Income(UBI) is the core idea in "Heal the world"(v2.0). This approach will insert a reservoir to be used to pay music by blockchain as a basic benefit to global listeners. This policy is a proactive method to stimulate the whole music economy.  
+
+Based on the [[https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefce |roadmap of $MUSIC]], we are going to make $MUSIC blockchain more useful to boost real world demands. Universal Basic Income(UBI) is the core idea in "Heal the world"(v2.0). This approach will insert a reservoir to be used to pay music by blockchain as a basic benefit to global listeners. This policy is a proactive method to stimulate the whole music economy.  
 
 Motivation
 ----------
@@ -36,5 +36,12 @@ Specification
 -------------
 
 With UBI scheme, we need to change the block reward after by allocating 280 coins will go to miners, 30 will be kept as UBI, and 4 coins will be reserved as dev fund.
+
+The implementation will be put into the block rewarding module in both go-musicoin and rust-musicoin. We will have a pseudo explanation over that:
+```
+statedb.AddBalance(header.Coinbase, rewardMinerBase)  'add coins to miner's coin base
+statedb.AddBalance(common.Address{UBIContract}, rewardUBI) 'add to UBI base
+statedb.AddBalance(common.Address{DevContract}, rewardDev) 'add to Dev base
+```
 
 The deployment of this change needs to [mcip-4.mediawiki | signal] in advance to study the current network.

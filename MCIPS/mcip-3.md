@@ -8,7 +8,7 @@
 Abstract
 --------
 
-Based on the [[https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefce |roadmap of $MUSIC]], we are going to make $MUSIC blockchain more useful to boost real world demands. Universal Basic Income(UBI) is the core idea in "Heal the world"(v2.0). This approach will insert a reservoir to be used to pay music by blockchain as a basic benefit to global listeners. This policy is a proactive method to stimulate the whole music economy.  
+Based on the [Roadmap of $MUSIC](https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefceroadmap), we are going to make $MUSIC blockchain more useful to boost real world demands. Universal Basic Income(UBI) is the core idea in "Heal the world"(v2.0). This approach will insert a reservoir to be used to pay music by blockchain as a basic benefit to global listeners. This policy is a proactive method to stimulate the whole music economy.  
 
 Motivation
 ----------

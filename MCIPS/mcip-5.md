@@ -1,9 +1,9 @@
-      MCIP: 3
+      MCIP: 5
       Title: PPP Pricing Model
       Status: Draft
       Type: Applications
       Author: Isaac Mao <isaac@musicoin.org>
-      Created: 2017-05-24
+      Created: 2017-08-24
 
 Abstract
 --------

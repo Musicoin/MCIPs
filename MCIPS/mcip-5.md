@@ -19,4 +19,4 @@ Change the PPP price according to current $MUSIC price in USD, once it stops at 
 
 Specification
 -------------
-<img src=./mcip-5/pppprice.jpg>
+<img src=./mcip-5/pppprice.png>

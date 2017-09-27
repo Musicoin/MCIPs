@@ -35,7 +35,7 @@ In this way, although UBI is part of monetary policy, it won't hurt the benefit 
 Specification
 -------------
 
-With UBI scheme, we need to change the block reward after by allocating 280 coins will go to miners, 30 will be kept as UBI, and 4 coins will be reserved as dev fund.
+With UBI scheme, we need to change the block reward after by allocating 250 coins will go to miners, 50 will be kept as UBI, and 14 coins will be reserved as dev fund.
 
 The implementation will be put into the block rewarding module in both go-musicoin and rust-musicoin. We will have a pseudo explanation over that:
 ```

@@ -7,11 +7,13 @@
 
 Abstract
 --------
-Define a mechanism to adjust PPP price according to $MUSIC price.
+Define a mechanism to Change the PPP price according to current $MUSIC price in USD
+
 
 Motivation
 ----------
-The price of $MUSIC may have market dynamics which sometimes leave PPP price ridiculous. E.g. If $MUSIC price was push up to $1,and PPP still pegged with 1MC, then people would think it's not reasonable even with UBI susidary.  
+The value of $MUSIC is subject to market fluctuations. In order to provide a fair, stable and consistent revenue to musicians on the Musicoin platform, we are proposing to dynamically vary the reward to musicians from 1 PPP according to the market value of $MUSIC. For example, immediately after UBI implementation, each PPP will earn xx USD equivalent in $MUSIC, irrrespective of whether the market price of $MUSIC is 0.01 USD or 1 USD
+
 
 Rationale
 ---------

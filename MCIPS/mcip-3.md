@@ -1,6 +1,6 @@
       MCIP: 3
       Title: Universal Basic Income
-      Status: Draft
+      Status: Implemented
       Type: Standard
       Author: Isaac Mao <isaac@musicoin.org>
       Created: 2017-05-24

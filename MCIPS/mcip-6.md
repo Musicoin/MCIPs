@@ -1,54 +1,42 @@
-      MCIP: 6
-      Title: Appling EIP-155 Protocol for preventing the Replay Attack
-      Status: Draft Proposal
-      Type: Core
-      Author: trustfarm (KT Ahn - 안씨아저씨) <trustfarm.info@gmail.com>, 
-              5chdn (Afri Schoedon) <schoedon@uni-potsdam.de>, 
-              im (Isaac Mao) <isaac@musicoin.org>
-      Created: 2017-10-30
+MCIP: 6
+Title: Applying EIP-155 Protocol for preventing the Replay Attack
+Status: Finalizing
+Type: Core
+Author: trustfarm (KT Ahn - 안씨아저씨) <trustfarm.info@gmail.com>,
+        5chdn (Afri Schoedon) <schoedon@uni-potsdam.de>,
+        im (Isaac Mao) <isaac@musicoin.org>
+Created: 2017-10-30
 
 Abstract
 --------
-
-Prevent replay Attack, enabling the EIP-155 Protocol on Musicoin Chain.
+Prevent replay Attack, enabling the EIP-155 Protocol on Musicoin Chain. It's a hardfork.
 
 Motivation
 ----------
-
-Current gmc-v2.0 doesn't applied ethereum's EIP-155 Protocol.
-So, there's risk of replay attack on ethereum based chain.
-Thus we need to apply this feature on musicoin chain as soon as possible.
-
-Specification
--------------
-
-Apply to above gmc-v2.2x , rmc-v2.2x (parity-v1.8 based musicoin node)
-at (what blocknumber [TBD] ) enable EIP-155 feature on musicoin chain.
+Current gmc-v2.x doesn't support Ethereum's EIP-155 Protocol, which defined the solution of reducing the risk of replay attack on Ethereum-based chains.
+If we don't consider this upgrade, Musicoin chain may face the similar threat once it's getting popular. Another benefit is that EIP-155 is required by some wallet solutions like Trezor and MyEhterWallet, this upgrade could help Musiocin users to be empowered by those tools.
 
 Rationale
 ---------
+By replacing CHAIN_ID with a unique value, the transaction hash will be different from chain to chain and possible to prevent from replay attack.
 
-From the testing the EIP-155 enabled feature on local environment,
-It needs to assign future blocknumber is better for user.
+Specification
+-------------
+Apply to above gmc-v2.2x , rmc-v2.2x (parity-v1.8 based Musicoin node) at block 2,100,000 enable EIP-155 feature on musicoin chain. Quote from EIP-155:
+```
+If block.number >= FORK_BLKNUM and v = CHAIN_ID * 2 + 35 or v = CHAIN_ID * 2 + 36, then when computing the hash of a transaction for purposes of signing or recovering, instead of hashing only the first six elements (ie. nonce, gasprice, startgas, to, value, data), hash nine elements, with v replaced by CHAIN_ID, r = 0 and s = 0. The currently existing signature scheme using v = 27 and v = 28 remains valid and continues to operate under the same rules as it does now.
+```
 
 Backwards Compatibility
 -----------------------
+It needs to assign future blocknumber is better for user. If node set to **N** th blocknumber, node which enabled EIP-155 will **re-sync** from **N** th block height. It's backward compatible below the block height of **0~(N-1)** ,EIP-155 enabled block. **N** block
 
-If node set to **N** th blocknumber, node which enabled EIP-155 will **re-sync** from **N** th block height.
-**0~(N-1)** block height : backward compatible.
-above **N** block : EIP-155 enabled block.
 
 Implementation
 --------------
-
-Above gmc-v2.1 , we can configure what time we apply EIP-155 by Musicoin community consensus.
-It's enough on technically.
-
-Consideration of Applying blocknumber
--------------------------------------
-
-Suggestion of Discussed
-1. Around 1.9M (Mid of Feb,2018) , Musicoin will scheduled to fork. and that time apply EIP-155.
-2. Around 1.7M (Mid of Jan,2018) or More earlier (End of Year) , Soft fork EIP-155.
-- Another Consideration with EIP-155 is enabling EIP-150 (Gas Fee change). 
-
+Parameters
+----------
+    ```
+    FORK_BLKNUM: 2,018,001
+    CHAIN_ID: 7762959 (MUSIC)
+    ```

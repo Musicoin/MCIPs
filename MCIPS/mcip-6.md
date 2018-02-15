@@ -36,7 +36,7 @@ Implementation
 --------------
 Parameters
 ----------
-    ```
+
     FORK_BLKNUM: 2,018,001
     CHAIN_ID: 7762959 (MUSIC)
-    ```
+    

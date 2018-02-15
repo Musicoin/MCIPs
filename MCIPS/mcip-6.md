@@ -1,11 +1,11 @@
-MCIP: 6
-Title: Applying EIP-155 Protocol for preventing the Replay Attack
-Status: Finalizing
-Type: Core
-Author: trustfarm (KT Ahn - 안씨아저씨) <trustfarm.info@gmail.com>,
-        5chdn (Afri Schoedon) <schoedon@uni-potsdam.de>,
-        im (Isaac Mao) <isaac@musicoin.org>
-Created: 2017-10-30
+        MCIP: 6
+        Title: Applying EIP-155 Protocol for preventing the Replay Attack
+        Status: Finalizing
+        Type: Core
+        Author: trustfarm (KT Ahn - 안씨아저씨) <trustfarm.info@gmail.com>,
+                5chdn (Afri Schoedon) <schoedon@uni-potsdam.de>,
+                im (Isaac Mao) <isaac@musicoin.org>
+        Created: 2017-10-30
 
 Abstract
 --------

@@ -17,13 +17,13 @@ Currently we can't provide the compensation lvl we like for musicoins when 1mc p
 
 ## Specification
 PPP extra reward tries to avoid situations when PPP and songs play licensed with 1 mc are cost less than $0.01 on the market.
-So in the case 1mc is cost less than < $0.01 it would use PPP Extra Reward route to compensate the price difference +20% (to avoid market fluctuations and withdraw and convert commissions for musicians, percent could be tweaked or removed).
+So in the case 1mc is cost less than < $0.011 it would use PPP Extra Reward route to compensate the price difference +10% (to avoid market fluctuations).
 
 MC price taken from the coinmarketcap and updated with 10 minutes intervals.
 
 But in the period when 1 mc price is more than $0.01 PPP Extra Reward wouldn't be executed. So in case 1 mc price is higher than $0.01 musician will get only 1 mc from PPP, just as the song was licensed.
 
-Formula: `PPP extra reward = (0.01 / priceInUsd * 120 / 100 ) - 1`
+Formula: `PPP extra reward = (0.011 / priceInUsd ) - 1`
 
 
 ## Rationale

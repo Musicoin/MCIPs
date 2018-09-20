@@ -21,13 +21,13 @@ On the other hand, we don't think the current industry has a valid solution, eit
 
 
 ## Rationale
-- supply
-- transaction fee
-- consensus
-- authentic community
+- supply (towarding resilence)
+- transaction fee (towarding 0)
+- consensus (people sharing content hold higher authority, musicians in this project)
+- authentic community (musicians and stakehodlers get verified)
 
 ## Specification
-- Becoming a verifier
+- Becoming a verifier 
 - How to validate a new verifier
 - Storage of content
 

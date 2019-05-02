@@ -18,6 +18,8 @@ Money supply should be proportional to utility in the economy. As we have seen t
 - Keep UBI supply(50/block) to make sure PPP contract can be maintained consistently
 - Keep dev supply (14/block) to make sure team can serve long goal and vision
 
+Total yield(after QT) = 114/block (36.3% of original yield)
+
 ## Specification
 - After block 5.2M:
 ```

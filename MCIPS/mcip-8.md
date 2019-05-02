@@ -1,37 +1,35 @@
     MCIP: 8
-    Title: Proof-of-Sharism(PoSh)
+    Title: Quantitative Tightening(QT)
     Author: Isaac Mao <isaac@musicoin.org>
     Type: Core
     Status: Draft
     Created: 2018-09-18
+    Updated: 2019-05-01
 
 
 ## Simple Summary
-It's time to move to a new consensus to make the blockchain more sustainable. 
-
-## Abstract
-How to make sure the blockchain is really serving everyone equally and make sure it's inclusive enough on distributing value, transferring value and evergreen. 
-
-Proof-of-Sharism(PoSh) is a long-envisioned direction for $MUSIC even before all those perils in the industry. We should start the journey and prove it's the future. 
+Based on the experiments of Playback-Tipping co-relationship, a more reasonable ration between UBI and money supply should be applied to make sure the whole economy model works more fluidly.
 
 ## Motivation
-The supply of Bitcoin tantalized a lot of people to make them believe that the economy of blockchain comes from a limited supply. However, a limited supply only makes the market fluctuate much simply because it makes the cryptocurrency not useful. We don't want to be abducted into the same peril, it's why we should really make the blockchain useful and meaningful to carry values instead of being the value itself. So to speak, the real value of the usages of a blockchain is possible to be much bigger than the blockchain value itself. 
-
-On the other hand, we don't think the current industry has a valid solution, either PoW, PoS, or PoA(Proof-of-Authority) are not compatible with the vision of usages in the real world, but only make the riches richer and eventually could be disastrous.  it's why we should share our ideas and make it workable. 
-
+Money supply should be proportional to utility in the economy. As we have seen the increasing rate of utility in the network which is used for tipping musicians and accessing premium user experiences in application layer, the needs of adjusting the money supply to consumers is becoming acute.
 
 ## Rationale
-- supply (towarding resilence)
-- transaction fee (towarding 0)
-- consensus (people sharing content hold higher authority, musicians in this project)
-- authentic community (musicians and stakehodlers get verified)
+- supply of money in one block reduced to 50/block (comparing to 250/block before)
+- Keep UBI supply(50/block) to make sure PPP contract can be maintained consistently
+- Keep dev supply (14/block) to make sure team can serve long goal and vision
 
 ## Specification
-- Becoming a verifier 
-- How to validate a new verifier
-- Storage of content
+- After block 5.2M:
+```
+  UBI Yield= 50;
+  Mining Yield = 50;
+  Dev yield = 14;  
+```
 
 ## Backwards Compatibility
-
+- Need hardfork but fully compatible with previous blocks in logic
 
 ## Implementation
+
+- GMC
+- Parity spec

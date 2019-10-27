@@ -1,10 +1,10 @@
-MCIP: 9
-Title: Proof of Value (PoV)
-Author: Isaac Mao <isaac@musicoin.org>
-Type: Core
-Status: Draft
-Created: 2018-10-18
-Updated: 2019-10-18
+  MCIP: 9
+  Title: Proof of Value (PoV)
+  Author: Isaac Mao <isaac@musicoin.org>
+  Type: Core
+  Status: Draft
+  Created: 2018-10-18
+  Updated: 2019-10-18
 
 
 ## Simple Summary

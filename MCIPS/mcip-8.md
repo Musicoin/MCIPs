@@ -2,7 +2,7 @@
     Title: Quantitative Tightening(QT)
     Author: Isaac Mao <isaac@musicoin.org>
     Type: Core
-    Status: Draft
+    Status: finalized
     Created: 2018-09-18
     Updated: 2019-05-01
 

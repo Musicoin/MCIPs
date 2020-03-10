@@ -2,7 +2,7 @@
     Title: Proof of Value (PoV)
     Author: Isaac MUSIC <isaac@musicoin.org>
     Type: Core
-    Status: Draft
+    Status: Draft (terminated)
     Created: 2018-10-18
     Updated: 2019-10-18
 
